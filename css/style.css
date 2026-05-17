@@ -1,0 +1,113 @@
+body {
+    font-family: Calibri, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url("../img/uniandes.jpg") no-repeat left center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+header {
+    background: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.foto {
+    width: 120px;
+    height: 160px;
+    border-radius: 8px;
+    border: 2px solid #222;
+    margin-bottom: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    text-align: justify;
+    background:  rgba(255, 255, 255, 0.65);
+    border-radius: 8px;
+}
+
+.calculadora {
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    width: max-content;
+    margin: auto;
+}
+
+#pantalla {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    text-align: right;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: aqua;
+}
+
+.botones {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+button {
+    padding: 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #444;
+    color: #fff;
+    width: 100%;
+}
+button:hover {
+    background: #555;
+}
+
+#igual {
+    grid-column: span 2;
+    background: #ff9500;
+}
+#igual:hover {
+    background: #e08900;
+}
+
+footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}

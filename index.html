@@ -1,8 +1,64 @@
 <html lang="es">
     <head>
-        <title>Aplicaciones Web</title>
+        <title>Aplicaciones Web - Calculadora</title>
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <h>CHICAIZA USHIÑA WILSON RICARDO</h>
+        <header>
+            <h1>BLOG - CHICAIZA USHIÑA WILSON RICARDO</h1>
+            <nav>
+                <ul>
+                    <l><a href="#inicio">Inicio</a></l>
+                    <l><a href="#informacion">Información</a></l>
+                    <l><a href="#calculadora">Calculadora</a></l>
+                </ul>
+            </nav>
+        </header>
+        <section id="inicio">
+            <h2>Bienvenido</h2>
+            <p>
+                Espacio para la materia de Aplicaciones Web de la UNIANDES sexto semestre tarea 1.
+            </p>
+        </section>
+        <section id="informacion">
+            <h2>Acerca de mí</h2>
+            <img src="img/credencial.jpg" alt="Chicaiza u. Wilson" class="foto">
+            <p>
+                Mi nombre es Wilson Ricardo Chicaiza Ushiña, soy estudiante de la Universidad Regional Autónoma de los Andes (UNIANDES), casado y con una hermosa hija, lo cual constituye mi mayor motivación. Me apasiona el fútbol y el ecuavoley, me gusta ir al gimnasio, ver boxeo, me encanta la comida tradicional ecuatoriana en especial la salchipapa y encebollado. Vengo con toda la actitud para obtener mi título de Inegniero en Sotware ya que me apasiona el mundo de la programación y la tecnología.
+            </p>
+        </section>
+        <section id="calculadora">
+            <h2>Operaciones básicas matemáticas</h2>
+            <div class="calculadora">
+                <input type="text" id="pantalla" disabled>
+                <div class="botones">
+                    <button data-value="7">7</button>
+                    <button data-value="8">8</button>
+                    <button data-value="9">9</button>
+                    <button data-value="/">/</button>
+
+                    <button data-value="4">4</button>
+                    <button data-value="5">5</button>
+                    <button data-value="6">6</button>
+                    <button data-value="*">*</button>
+
+                    <button data-value="1">1</button>
+                    <button data-value="2">2</button>
+                    <button data-value="3">3</button>
+                    <button data-value="-">-</button>
+
+                    <button data-value="0">0</button>
+                    <button data-value=".">.</button>
+                    <button id="igual">=</button>
+                    <button data-value="+">+</button>
+
+                    <button id="clear">C</button>
+                </di>
+            </div>
+        </section>
+        <script src="js/script.js"></script>
+        <footer>
+            <p>&copy; 2026 Blog de Chicaiza U. Wilson - Todos los derechos reservados - UNIANDES</p>
+        </footer>
     </body>
 </html>
