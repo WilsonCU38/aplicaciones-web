@@ -2,7 +2,7 @@ body {
     font-family: Calibri, sans-serif;
     margin: 0;
     padding: 0;
-    background: url("../img/uniandes.jpg") no-repeat left center fixed;
+    background: url("../assets/img/uniandes.jpg") no-repeat left center fixed;
     background-size: cover;
     color: #333;
 }
